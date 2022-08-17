@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="OrderFaves" representedClassName="OrderFaves" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="String"/>
+        <attribute name="imageUrl" attributeType="String"/>
+        <attribute name="isFavorite" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="total" attributeType="String"/>
+    </entity>
+    <entity name="OrdersDataBase" representedClassName="OrdersDataBase" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" attributeType="String"/>
+        <attribute name="imageUrl" attributeType="String"/>
+        <attribute name="isFavorite" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="orderId" attributeType="String"/>
+        <attribute name="total" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="OrderFaves" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="OrdersDataBase" positionX="-54" positionY="18" width="128" height="104"/>
+    </elements>
+</model>
